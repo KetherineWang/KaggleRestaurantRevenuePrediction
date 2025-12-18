@@ -12,6 +12,8 @@ library(ranger)
 library(embed)
 library(lme4)
 
+setwd("C:/Users/HongtingWang/Documents/STAT 348 - Predictive Analytics/KaggleRestaurantRevenuePrediction/data")
+
 train <- read_csv("./train.csv")
 test <- read_csv("./test.csv")
 
